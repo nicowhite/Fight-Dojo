@@ -1,12 +1,16 @@
 *
 {
-    background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-image: url(./images/wallpaper.jpg);
+
+}
 .title {
     font-size: 5rem;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    
     color: #fff;
     animation: pulsate 0.11s ease-in-out infinite alternate;
 }
@@ -45,7 +49,32 @@
 }
 
 
-.mainVideo {
+
+.navigationBar > ul {
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigationBar > ul > li  {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+.song {
     margin-top: 150px;
     display: block;
     margin-left: auto;
