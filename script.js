@@ -13,3 +13,13 @@ document.getElementById("mk").addEventListener("click", function(){
 }
 
 redirect();
+
+
+
+const navLinks = document.querySelector(".nav-links");
+const burger = document.querySelector(".burger");
+
+burger.addEventListener("click", () => {
+  navLinks.classList.toggle("nav-open");
+  burger.classList.toggle("toggle");
+});
