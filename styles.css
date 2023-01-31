@@ -12,6 +12,11 @@ body {
 
 
 .title {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -100px;
+  background-position-x: 500px;
+  background-image: url(images/SFV_Sagat27s_Court.PNG.webp);
   font-size: 5rem;
   text-align: center;
   max-width: 100%;
@@ -53,8 +58,8 @@ body {
 
 .slideshow {
   display: flex;
-  width: 600px;
-  height: 430px;
+  width: 650px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
@@ -75,6 +80,8 @@ body {
   opacity: 1;
   filter: contrast(120%);
 }
+
+
 
 /*///// barra de navegacion /////*/
 
@@ -132,4 +139,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.mvc-title{
+  margin-left: 780px;
+  text-shadow: 0 0 10px #fff;
+  color: #fff;
 }
