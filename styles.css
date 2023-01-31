@@ -48,7 +48,7 @@ body {
 .navigationBar ul li {
   flex: 1;
   text-decoration: none;
-  color: #fff;
+  text-shadow: 0 0 10px #fff;
 }
 
 a {
