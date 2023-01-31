@@ -117,3 +117,11 @@ body {
 }
 
 
+
+#play-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  color: transparent;
+}

@@ -15,5 +15,10 @@ document.getElementById("mk").addEventListener("click", function(){
 redirect();
 
 
+const audio = document.getElementById("my-audio");
+const playButton = document.getElementById("play-button");
 
+playButton.addEventListener("click", function() {
+  audio.play();
+});
 
