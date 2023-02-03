@@ -19,6 +19,9 @@ redirect();
 const audio = document.getElementById("my-audio");
 const playButton = document.getElementById("play-button");
 
-playButton.addEventListener("click", function () {
+playButton.addEventListener("hover", function () {
   audio.play();
 });
+
+
+
