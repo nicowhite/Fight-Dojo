@@ -138,3 +138,30 @@
 
 }
 
+<<<<<<< HEAD:public/styles.css
+=======
+
+
+#play-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  color: transparent;
+}
+
+
+.mvcgame {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mvc-title{
+  margin-left: 780px;
+  text-shadow: 0 0 10px #fff;
+  color: #fff;
+}
+
+
+>>>>>>> ba9ffef3e423e967487db0d4a5a3749e34320b70:styles.css

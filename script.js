@@ -7,6 +7,7 @@ const app = express(); //ACTIVACION DE EXPRESS
 app.use(bodyParser.urlencoded({ extended: true })); //USO DE BODY PARSER
 app.use(express.static("public")); //METODO QUE SE USA PARA ACTIVAR EL CSS DESDE LA CARPETA PUBLIC
 
+<<<<<<< HEAD
 app.get("/", function (req, res) {
   //HOME ROUTE
   res.sendFile(__dirname + "/index.html");
@@ -51,3 +52,11 @@ app.listen(3000, function () {
 //   });
 // }
 // redirect();
+=======
+playButton.addEventListener("hover", function () {
+  audio.play();
+});
+
+
+
+>>>>>>> ba9ffef3e423e967487db0d4a5a3749e34320b70
